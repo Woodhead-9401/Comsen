@@ -1,0 +1,13 @@
+# COCO子集数据集配置文件
+path: ./coco_subset_3class  # 数据集根目录
+train: images/train  # 训练集相对路径
+val: images/val      # 验证集相对路径
+
+# 类别数量
+nc: 3
+
+# 类别名称
+names:
+  0: person
+  1: car
+  2: dog
